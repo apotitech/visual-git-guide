@@ -47,6 +47,36 @@ hr{
 }
 
 
+.dark-mode {
+    background: #000000; /* Black background */
+    color: #ffffff; /* White text */
+}
+
+.dark-mode a, .dark-mode a:visited {
+    color: #49a6e9; /* Adjust link color for dark mode */
+}
+
+.dark-mode h1, .dark-mode h2, .dark-mode h3 {
+    color: #ffffff;
+}
+
+.dark-mode hr {
+    background: #424242;
+}
+
+#dark-mode-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #f05033; /* Button background */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
 .center {
     text-align: center;
 }
