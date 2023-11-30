@@ -1,7 +1,7 @@
 図解Git
 =======
 
-これは Mark Lodato さんによる visual Git reference の日本語訳です。本人
+これは Lionel Tchami さんによる visual Git reference の日本語訳です。本人
 の許可を得て、翻訳しています。
 
 ブラウザで本文を読みたい場合は、以下のURLにアクセスして下さい。
@@ -10,11 +10,11 @@
 
 オリジナルのページは、以下を参照して下さい。
 
-<http://marklodato.github.io/visual-git-guide/>
+<http://apotitech.github.io/visual-git-guide/>
 
 また、オリジナルのソースは、以下を参照して下さい。
 
-<http://github.com/MarkLodato/visual-git-guide>
+<http://github.com/apotitech/visual-git-guide>
 
 お願い
 ======
