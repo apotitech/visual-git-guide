@@ -48,20 +48,20 @@ hr{
 
 
 .dark-mode {
-    background: #000000; /* Black background */
-    color: #ffffff; /* White text */
+    background: #1e1e1e; /* Dark gray background */
+    color: #e0e0e0; /* Lighter text for better contrast */
 }
 
 .dark-mode a, .dark-mode a:visited {
-    color: #49a6e9; /* Adjust link color for dark mode */
+    color: #4fa9f6; /* Slightly softer blue for links */
 }
 
 .dark-mode h1, .dark-mode h2, .dark-mode h3 {
-    color: #ffffff;
+    color: #ffffff; /* Keeping headers bright for emphasis */
 }
 
 .dark-mode hr {
-    background: #424242;
+    background: #2c2c2c; /* A slightly lighter gray for horizontal rules */
 }
 
 #dark-mode-toggle {
