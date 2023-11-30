@@ -1,0 +1,21 @@
+\input{common.tex}
+\begin{document}
+\begin{tikzpicture}[main]
+    \boundingbox
+    \usualsetup
+    \refbelow [branch] "main" : main -> E;
+    \oldbranch stable -> A;
+    \branch stable -> E;
+    \oldHEAD -> old stable;
+    \HEAD -> stable;
+
+    \node [cmd] at (0, 3.75) {git merge main};
+
+    \path [line]
+        (E) edge [bend right=5] (index.north east)
+        (E) edge [bend right=15] (work.north east)
+        (old HEAD) edge [dashed, bend left=10] (HEAD)
+        ;
+
+\end{tikzpicture}
+\end{document}
